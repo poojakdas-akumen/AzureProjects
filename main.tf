@@ -7,7 +7,7 @@ provider "azurerm" {
   features {}
 
   # Specifies the Azure subscription where resources will be created.
-  subscription_id = "770a8493-2591-4e7e-84e3-b99ada39cbbf"
+  subscription_id = "give ur subscription"
 }
 
 
@@ -16,7 +16,7 @@ provider "azurerm" {
 resource "azurerm_resource_group" "rg" {
 
   # Name of the Resource Group that will appear in the Azure portal.
-  name = "pooja-devops-rg"
+  name = "namee"
 
   # Azure region where the Resource Group will be created.
   location = "Central India"
@@ -29,7 +29,7 @@ resource "azurerm_storage_account" "stg" {
 
   # Globally unique name for the Storage Account.
   # Must be lowercase letters and numbers, between 3 and 24 characters.
-  name = "poojadevops12345"
+  name = "name"
 
   # Connects this Storage Account to the Resource Group created in STEP 2.
   # Terraform automatically understands this dependency.
